@@ -1,0 +1,45 @@
+*{
+    background-color: #89d8d3;
+    background-image: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
+}
+#signupcontainer{
+    width: 50%;
+    background-color: white;
+    margin: auto;
+}
+#signupcontainer h1 {
+    text-align: center;
+}
+form {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 18px;
+    padding: 3%;
+}
+input {
+    padding: 35px;
+    color: black;
+    border-radius: 10px;
+    border: none; 
+}
+select {
+    padding: 35px;
+    color: black;
+    border-radius: 10px;
+    border: none; 
+}
+#submit {
+    color: black;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    font-size: medium;
+    border: none;
+}
+#submit:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,39 @@
+*{
+    background: linear-gradient(91.9deg, rgb(93, 248, 219) 27.8%, rgb(33, 228, 246) 67%);
+}
+#logincontainer{
+    margin: auto;
+    width: 50%;
+    height: 600px;
+    background-color: white;
+}
+#logincontainer h1 {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+form {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 30px;
+}
+#logincontainer input {
+    padding: 20px;
+    border-radius: 10px;
+}
+button {
+    padding: 20px;
+    font-size: large;
+}
+button:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: teal;
+}
