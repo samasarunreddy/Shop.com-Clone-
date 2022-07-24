@@ -25,7 +25,7 @@ function loginfunc(data){
     }
     if(userEmail===loginEmail && userPassword===loginPassword){
         alert ("Logged in Successfully");
-        window.location.href = "./homepage.html";
+        window.location.href = "./index.html";
     }else{
         alert ("Inavlid Credentials");
     }
